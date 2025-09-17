@@ -32,15 +32,16 @@ main{
     
 }
 h1{
-    border: 1px dotted black;/*so para ver as delimitações[enxergar]*/
+   /* border: 1px dotted black;/*so para ver as delimitações[enxergar]*/
     flex: 0 0 200px; /*grow (0)[nao vai crescer] - shrink (0)[nao vai encolher]- fixo em 200px */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.089);
 
 
 
 
 }
 nav{
-    border: 1px dotted black;/*so para ver as delimitações[enxergar]*/
+   /* border: 1px dotted black;/*so para ver as delimitações[enxergar]*/
     display: flex;/*conteiner flexivel*/
     flex-flow: row wrap;/*fica na vertical [column] */
     justify-content: flex-end;/*sempre grudado no fim [canto]*/
